@@ -1,0 +1,109 @@
+#header{
+    margin: 0px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    background-color: darkkhaki;
+    text-align: center;
+    padding: 20px;
+}
+
+.to-search {
+    color: #555;
+    display: flex;
+    padding: 2px;
+    border: 1px solid currentColor;
+    border-radius: 50px;
+  }
+  input[type="text"] {
+    border: 0;
+    background: transparent;
+    margin: 0;
+    padding: 7px 8px;
+    font-size: 14px;
+    color: inherit;
+    border-radius: inherit;
+  }
+
+  
+  input[type="text"]::placeholder {
+    color: #bbb;
+  }
+  button[type="submit"] {
+    text-indent: -10px;
+    overflow: hidden;
+    width: 40px;
+    padding: 0;
+    margin: 0;
+    border-radius: inherit;
+    cursor: pointer;
+    opacity: 0.5;
+    background-color: white;
+    border-style: none;
+  }
+  
+
+.secondline{
+  /*  float: left; */
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    /*overflow: auto;*/
+}
+.clearfix{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 0px;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+    background-color: aqua;
+}
+a:link{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: crimson;
+}
+.material-icons{
+    border: solid black;
+    padding: 5px;
+}
+
+div img{
+  width: 100%;
+ 
+}
+
+.billboard{
+  padding: 5px;
+  position: absolute;
+  width: 400px;
+  height: 150px;
+  left: 4rem;
+  top: 16rem;
+  background-color: white;
+}
+.Learning{
+ margin-left: 12px;
+}
+
+#Broad-selection{
+  font-size: 45px;
+}
+
+#choose{
+  font-size: 20px;
+}
+
+#shopping-cart a:hover{
+  color: purple;
+}
